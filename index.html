@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio personal de Víctor Miguel Jiménez Moreno, estudiante de Desarrollo de Aplicaciones Multiplataforma.">
+    <title>Portfolio | Víctor Miguel Jiménez</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecera">
+        <nav class="menu">
+            <a class="logo" href="#inicio">Víctor JM</a>
+
+            <ul class="enlaces-menu">
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#formacion">Formación</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+
+            <button id="boton-tema" class="boton-tema" type="button">☀️ Modo claro</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-texto">
+                <p class="etiqueta">Portfolio personal</p>
+                <h1>Hola, soy Víctor Miguel Jiménez Moreno</h1>
+                <p class="subtitulo">
+                    Estudiante de 1.º DAM con formación previa en Sistemas Microinformáticos y Redes,
+                    interesado en la programación, el desarrollo web y la inteligencia artificial.
+                </p>
+
+                <div class="botones-hero">
+                    <a class="boton principal" href="#proyectos">Ver proyectos</a>
+                    <a class="boton secundario" href="#contacto">Contactar</a>
+                </div>
+            </div>
+
+            <div class="hero-foto">
+                <img src="assets/img/foto-perfil.jpg" alt="Foto de perfil de Víctor Miguel Jiménez Moreno">
+            </div>
+        </section>
+
+        <section id="sobre-mi" class="seccion">
+            <div class="titulo-seccion">
+                <p class="etiqueta">Sobre mí</p>
+                <h2>Quién soy</h2>
+            </div>
+
+            <article class="tarjeta texto-largo">
+                <p>
+                    Soy Víctor Miguel Jiménez Moreno, estudiante de 1.º de Desarrollo de Aplicaciones
+                    Multiplataforma en el IES Gregorio Prieto de Valdepeñas. Antes estudié Sistemas
+                    Microinformáticos y Redes, por lo que ya tenía una base relacionada con equipos,
+                    sistemas y tecnología.
+                </p>
+                <p>
+                    Elegí DAM porque me gusta mucho la informática y especialmente la programación.
+                    Me interesa aprender a crear aplicaciones, páginas web y soluciones que puedan
+                    automatizar tareas o mejorar procesos. También me llama mucho la atención la
+                    inteligencia artificial, ya que creo que es una tecnología con mucho futuro.
+                </p>
+                <p>
+                    Actualmente estoy aprendiendo programación, desarrollo web y herramientas como Git
+                    y GitHub. En el futuro me gustaría seguir formándome en inteligencia artificial y
+                    ciberseguridad, además de mejorar como programador. En mi tiempo libre me gusta la
+                    informática, investigar sobre IA y practicar deporte.
+                </p>
+            </article>
+        </section>
+
+        <section id="habilidades" class="seccion">
+            <div class="titulo-seccion">
+                <p class="etiqueta">Habilidades</p>
+                <h2>Tecnologías que estoy aprendiendo</h2>
+            </div>
+
+            <div class="grid-habilidades">
+                <article class="tarjeta habilidad">
+                    <h3>Java</h3>
+                    <p>Nivel básico / medio</p>
+                    <div class="barra"><span class="nivel medio"></span></div>
+                </article>
+
+                <article class="tarjeta habilidad">
+                    <h3>HTML y CSS</h3>
+                    <p>Nivel medio</p>
+                    <div class="barra"><span class="nivel medio"></span></div>
+                </article>
+
+                <article class="tarjeta habilidad">
+                    <h3>Git y GitHub</h3>
+                    <p>Nivel básico</p>
+                    <div class="barra"><span class="nivel basico"></span></div>
+                </article>
+
+                <article class="tarjeta habilidad">
+                    <h3>Bases de datos</h3>
+                    <p>Nivel básico</p>
+                    <div class="barra"><span class="nivel basico"></span></div>
+                </article>
+
+                <article class="tarjeta habilidad">
+                    <h3>Sistemas informáticos</h3>
+                    <p>Nivel medio</p>
+                    <div class="barra"><span class="nivel medio"></span></div>
+                </article>
+
+                <article class="tarjeta habilidad">
+                    <h3>IA</h3>
+                    <p>Interés y aprendizaje</p>
+                    <div class="barra"><span class="nivel basico"></span></div>
+                </article>
+            </div>
+        </section>
+
+        <section id="proyectos" class="seccion">
+            <div class="titulo-seccion">
+                <p class="etiqueta">Proyectos</p>
+                <h2>Trabajos realizados</h2>
+            </div>
+
+            <div class="grid-proyectos">
+                <article class="tarjeta proyecto">
+                    <img src="assets/img/proyecto-vr.jpg" alt="Imagen representativa del proyecto VR del sistema solar">
+                    <div class="contenido-proyecto">
+                        <h3>VR - Sistema Solar</h3>
+                        <p>
+                            Proyecto web interactivo en el que se representa un sistema solar en 3D.
+                            Incluye escenas con planetas, una zona de Marte y un pequeño minijuego para
+                            adivinar planetas.
+                        </p>
+                        <div class="tecnologias">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>A-Frame</span>
+                        </div>
+                        <a class="enlace-proyecto" href="https://github.com/victormjm1106/VR" target="_blank" rel="noopener noreferrer">
+                            Ver repositorio
+                        </a>
+                    </div>
+                </article>
+
+                <article class="tarjeta proyecto">
+                    <img src="assets/img/proyecto-git.jpg" alt="Imagen representativa de una práctica colaborativa con Git y GitHub">
+                    <div class="contenido-proyecto">
+                        <h3>Práctica Git en pareja</h3>
+                        <p>
+                            Práctica realizada para trabajar con Git y GitHub de forma colaborativa.
+                            Sirvió para practicar ramas, commits, estructura de archivos y trabajo en equipo
+                            usando HTML y CSS.
+                        </p>
+                        <div class="tecnologias">
+                            <span>Git</span>
+                            <span>GitHub</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                        <a class="enlace-proyecto" href="https://github.com/victormjm1106/practica-git-pareja" target="_blank" rel="noopener noreferrer">
+                            Ver repositorio
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="formacion" class="seccion">
+            <div class="titulo-seccion">
+                <p class="etiqueta">Formación y experiencia</p>
+                <h2>Mi recorrido</h2>
+            </div>
+
+            <div class="timeline">
+                <article class="tarjeta item-timeline">
+                    <span class="fecha">2025 - Actualidad</span>
+                    <h3>Desarrollo de Aplicaciones Multiplataforma</h3>
+                    <p>IES Gregorio Prieto, Valdepeñas.</p>
+                </article>
+
+                <article class="tarjeta item-timeline">
+                    <span class="fecha">2023 - 2025</span>
+                    <h3>Sistemas Microinformáticos y Redes</h3>
+                    <p>IES Modesto Navarro.</p>
+                </article>
+
+                <article class="tarjeta item-timeline">
+                    <span class="fecha">Prácticas</span>
+                    <h3>Informático en prácticas</h3>
+                    <p>Ayuntamiento de La Solana.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contacto" class="seccion contacto">
+            <div class="titulo-seccion">
+                <p class="etiqueta">Contacto</p>
+                <h2>Cómo contactar conmigo</h2>
+            </div>
+
+            <article class="tarjeta contacto-contenido">
+                <p>
+                    Si quieres ver mis proyectos o contactar conmigo, puedes hacerlo desde los siguientes enlaces.
+                </p>
+
+                <div class="contacto-lista">
+                    <a href="mailto:victormjm1106@gmail.com">victormjm1106@gmail.com</a>
+                    <a href="https://github.com/victormjm1106" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://www.linkedin.com/in/victor-miguel-jimenez-moreno" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <span>La Solana, España</span>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="pie">
+        <p>© 2026 Víctor Miguel Jiménez Moreno</p>
+        <a href="#inicio">Volver arriba</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
